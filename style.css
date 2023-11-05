@@ -1,0 +1,30 @@
+body{
+    box-sizing: border-box;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    border: green solid 2px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+header{
+    display: flex;
+    gap : 15px;
+    border: red solid 2px;
+    align-self:auto;
+    padding : 15px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin : 0;
+    display: flex;
+    gap : 10px;
+    margin-left: auto;
+}
+
+a {
+    text-decoration: none;
+}
