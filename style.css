@@ -3,17 +3,14 @@ body{
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    border: green solid 2px;
-    margin-left: 100px;
-    margin-right: 100px;
 }
 
 header{
     display: flex;
     gap : 15px;
-    border: red solid 2px;
-    align-self:auto;
-    padding : 15px;
+    background-color: #1F2937;
+    align-items: center;
+    padding : 15px 100px 15px 100px;
 }
 
 ul {
@@ -21,10 +18,17 @@ ul {
     padding: 0;
     margin : 0;
     display: flex;
-    gap : 10px;
+    gap : 20px;
     margin-left: auto;
 }
 
 a {
     text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.logo {
+    font-size: 24px;
+    color : #F9FAF8;
 }
