@@ -80,6 +80,7 @@ button {
     color: white;
     padding : 10px;
     border-radius: 8px;
+    font-weight: bold;
 }
 
 a,
