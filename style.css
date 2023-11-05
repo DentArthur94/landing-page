@@ -6,10 +6,16 @@ body{
     font-size: 18px;
 }
 
+
+header,
+footer {
+    background-color: #1F2937;
+}
+
+
 header{
     display: flex;
     gap : 15px;
-    background-color: #1F2937;
     align-items: center;
     padding : 15px 150px 15px 150px;
 }
@@ -25,7 +31,6 @@ ul {
 
 a {
     text-decoration: none;
-    font-size: 18px;
     color: #E5E7EB;
 }
 
@@ -51,8 +56,6 @@ a {
 }
 
 .banner p {
-    font-size: 18px;
-    color: #E5E7EB;
     margin-top : 0px;
 }
 
@@ -77,4 +80,9 @@ button {
     color: white;
     padding : 10px;
     border-radius: 8px;
+}
+
+a,
+.banner p{
+color: #E5E7EB;
 }
