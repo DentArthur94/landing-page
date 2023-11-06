@@ -142,6 +142,7 @@ color: #E5E7EB;
     font-size: 34px;
     font-style: italic;
     margin-bottom: 0;
+    font-weight: 300;
 }
 
 .author {
@@ -151,3 +152,40 @@ color: #E5E7EB;
     font-weight: bold;
     font-weight: 550;
 }
+
+.call-to-action {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.blue-box {
+    display: flex;
+    background-color: #3882F6;
+    margin : 50px 0;
+    border-radius: 10px;
+    padding: 15px 100px;
+    color : white;
+    align-items: center;
+}
+
+.text-to-act h1 {
+    font-size: 20px;
+    margin-bottom: 0;
+}
+
+.text-to-act p {
+    font-size: 18px;
+    margin-top: 0;
+    font-weight: 300;
+}
+
+#footer-button {
+    border: white solid 1px;
+    border-radius: 12px;
+    margin-left: 50px ;
+    
+    
+}
+
+
