@@ -4,6 +4,9 @@ body{
     display: flex;
     flex-direction: column;
     font-size: 18px;
+    font-family: 'lato';
+    padding: 0;
+    margin :0;
 }
 
 
@@ -12,6 +15,9 @@ footer {
     background-color: #1F2937;
 }
 
+h1 {
+    font-family: 'lato';
+}
 
 header{
     display: flex;
@@ -44,7 +50,7 @@ a {
     gap : 15px;
     background-color: #1F2937;
     align-items: center;
-    padding : 15px 150px 15px 150px;
+    padding : 15px 150px 100px 150px;
     justify-content: space-between;
 }
 
@@ -92,7 +98,7 @@ color: #E5E7EB;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding : 15px 150px 15px 150px;
+    padding : 15px 150px 76px 150px;
 
 
 }
@@ -124,4 +130,24 @@ color: #E5E7EB;
 }
 
 
+.bottom {
+    display: flex;
+    flex-direction: column;
+    padding : 50px 250px 50px 250px;
+    align-items: center;
+    background-color: #E5E7EB;
+}
 
+.quote {
+    font-size: 34px;
+    font-style: italic;
+    margin-bottom: 0;
+}
+
+.author {
+    margin-top: 0;
+    align-self:flex-end;
+    margin-right: 30px;
+    font-weight: bold;
+    font-weight: 550;
+}
