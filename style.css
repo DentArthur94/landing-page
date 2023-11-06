@@ -183,9 +183,14 @@ color: #E5E7EB;
 #footer-button {
     border: white solid 1px;
     border-radius: 12px;
-    margin-left: 50px ;
-    
-    
+    margin-left: 50px ;    
+}
+
+footer{
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    padding : 20px 0;
 }
 
 
