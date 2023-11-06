@@ -35,7 +35,7 @@ ul {
 
 a {
     text-decoration: none;
-    color: #E5E7EB;
+    color: white;
 }
 
 .logo {
@@ -87,12 +87,16 @@ button {
     background-color: #3882F6;
     border: none;
     color: white;
-    padding : 10px 25px;
     border-radius: 8px;
     font-weight: bold;
+    display: flex;
 }
 
-a,
+button a {
+    padding : 10px 25px;
+}
+
+li a,
 .banner p{
 color: #E5E7EB;
 }
